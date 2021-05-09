@@ -18,7 +18,7 @@ public interface A
 
 abstract class B implements A{
 	public void c(){
-		System.out.println("I am c");
+		System.out.println("I am GIT B c");
 	}
 	
 }
@@ -26,16 +26,16 @@ abstract class B implements A{
 class M extends B{
 	
 	public void b(){
-		System.out.println("I am B");
+		System.out.println("I am GIT B B");
 	}
 	
 	public void a()
 	{
-		System.out.println("I am A");
+		System.out.println("I am GIT B A");
 	}
 	public void d()
 	{
-		System.out.println("I am D");
+		System.out.println("I am GIT B D");
 	}
 }
 
